@@ -1,0 +1,29 @@
+{
+  "spec_version": "v1.4",
+  "identifier": "KSP-STC",
+  "name": "KSP-STC: Kerbol Scope",
+  "abstract": "Retro navigation-console system chart in your browser: live clock, bodies and vessels, vessel switching, transfer windows and a traffic simulator.",
+  "author": "FaradayMicrosystems",
+  "version": "0.0.1",
+  "ksp_version_min": "1.12.0",
+  "ksp_version_max": "1.12.99",
+  "license": "MIT",
+  "release_status": "testing",
+  "resources": {
+    "repository": "https://github.com/FaradayMicrosystems/KSP-STC",
+    "homepage": "https://github.com/FaradayMicrosystems/KSP-STC"
+  },
+  "tags": [ "information", "plugin", "telemetry" ],
+  "depends": [
+    { "name": "TelemachusReborn" },
+    { "name": "kRPC" }
+  ],
+  "install": [
+    { "file": "GameData/KSP-STC", "install_to": "GameData" },
+    { "file": "GameData/Telemachus/Plugins/PluginData/Telemachus/kerbol-scope.html", "install_to": "GameData/Telemachus/Plugins/PluginData/Telemachus" }
+  ],
+  "download": "https://github.com/FaradayMicrosystems/KSP-STC/raw/main/dist/KSP-STC-0.0.1.zip",
+  "download_size": 52364,
+  "download_hash": { "sha1": "5E41CE2B77617F7EC0743FF1F2F3FDF0B4357055", "sha256": "698C6C5236E8E2721FCDEFD9EDDF625CC14596A4FDEE7D24C070EF8D5CD1A563" },
+  "download_content_type": "application/zip"
+}
