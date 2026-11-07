@@ -9,7 +9,7 @@ retro ship's navigation console. It follows your running game live:
 - **Vessel switching**: double-click a ship on the map, or press Switch in Traffic › Tracked.
 - Transfer-window timing, a fleet simulator with automated routes, stations and a mission log.
 
-Status: **0.0.1 pre-alpha**. Tested against stand-in servers, not yet inside KSP.
+Status: **0.0.2 pre-alpha**. Requires KSP 1.12.3 – 1.12.5.. Tested against stand-in servers, not yet inside KSP.
 
 ## Install with CKAN
 
@@ -17,7 +17,7 @@ Status: **0.0.1 pre-alpha**. Tested against stand-in servers, not yet inside KSP
 2. In CKAN: **File › Install from .ckan…** and pick the file.
 3. CKAN also installs the two required mods: **Telemachus Reborn** and **kRPC**.
 
-Manual install: unzip `dist/KSP-STC-0.0.1.zip` into your KSP folder (it contains `GameData/`),
+Manual install: unzip `dist/KSP-STC-0.0.2.zip` into your KSP folder (it contains `GameData/`),
 then install Telemachus Reborn and kRPC yourself.
 
 ## One-time kRPC setup
